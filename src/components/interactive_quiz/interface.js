@@ -18,7 +18,7 @@ import CardLoading from '../card_loading';
 export const Interface = ({ component, wrapperElement }) => {
   // Demo Interface
   const [entered] = useState(false);
-  const [entryValue] = useState();
+  const [entryValue] = useState(0);
   const [submitting] = useState(false);
 
   const interactiveInterface = useMemo(
