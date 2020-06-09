@@ -1,4 +1,6 @@
-.card__interaction {
-  display: grid;
+.interactive__wrapper .interaction--type-play {
+  height: 100%;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
